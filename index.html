@@ -1,0 +1,48 @@
+<!-- The boilerform namespace -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" media="all" href="boiliform.min.css" />
+    <link rel="stylesheet" media="all" href="css.scss"/>
+    <link rel="stylesheet" href="imagemplace.css">
+   <!-- <link rel="stylesheet" href="imagemplace.js">-->
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="boilerform">
+        <div class="placeholder"> 
+        <form class="boilerform" action="" method="post" >
+            <fieldset class="c-form">
+                <legend class="c-form__heading">Formulario Contato</legend>
+                <div class="c-form__row">
+                    <label for="name" class="c-label">Nome</label>
+                    <input type="text" name="name" id="name" class="c-input-field" value="" autocorrect="off" required />
+                </div>
+                <div class="c-form__row">
+                    <label for="email" class="c-label">E-Mail</label>
+                    <input type="email" name="email" id="email" autocapitalize="none" autocorrect="off" class="c-input-field"
+                        required />
+                </div>
+                <div class="c-form__row">
+                    <label for="message" class="c-label">Sua Menssagem</label>
+                    <textarea name="message" id="message" class="c-input-field c-input-field--multiline"></textarea>
+                </div>
+                <div class="c-form__row">
+                    <button class="c-button" type="submit">Enviar</button>
+                </div>
+            </fieldset>
+        </form>
+        </div>
+    </div>
+    <div class="boilerform c-form__row" >
+        <p href=""><b>Ainda não é cadastrado? Faça já o Seu cadastro!!</p></b>
+        <a href="cadastro.html"><button class="c-button" type="submit">Cadastre-se</button></a>
+    </div>
+</body>
+
+</html>
